@@ -71,7 +71,7 @@ if args.test:
     num_lrounds = 3
     mode_name = "TEST"
 else:
-    num_lrounds = 10
+    num_lrounds = 3
     mode_name = "DEFAULT"
 executions_per_lround = rounds_per_lround * iterations_per_round  # 100,000
 total_executions = num_lrounds * executions_per_lround
